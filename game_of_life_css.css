@@ -1,0 +1,46 @@
+#div_container { 
+    display: block;
+} 
+
+.div_row{
+	display: block;
+	height: 20px;
+	text-align: center;
+}
+
+.cell{
+   display: inline-block;
+   width: 20px; 
+   height: 20px;
+}
+
+.dead_cell{
+   background-color: orange;
+}
+
+.live_cell{
+   background-color: blue;
+}
+
+#buttonsDiv{
+		text-align: center;
+		margin-top: 10px;
+}
+#buttonStep{
+	text-align: center;
+
+}
+#buttonResumePause{
+	text-align: center;
+
+}
+#buttonNewGame{
+	text-align: center;
+
+}
+
+#buttonReverse{
+	text-align: center;
+}
+
+

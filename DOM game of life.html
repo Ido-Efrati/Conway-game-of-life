@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<LINK rel="stylesheet" href="game_of_life_css.css" type="text/css">
+    <script src="resources/jquery-1.10.2.min.js"></script>
+    <script src="board.js"></script>
+    <script src="cell.js"></script>
+    <script src="graphics.js"></script>
+    <script src="game_of_life.js"></script>
+</head>
+
+<body>
+
+	<div id="div_container">
+	</div>
+	
+	<div id="buttonsDiv">
+	<button id="buttonNewGame">New Game</button>
+	<button id="buttonResumePause" disabled="disabled">Pause</button>
+	<button id="buttonStep" disabled="disabled">Step</button>
+	<button id="buttonReverse" disabled="disabled">Reverse</button>
+
+	<br>
+	<div>grid size: <span class="range">20</span>x<span class="range">20</span> <input type="range" min="2" max="25" value="20" step="1" id="slider"/>
+	</div>
+
+
+	</div>
+</body>
+</html>
